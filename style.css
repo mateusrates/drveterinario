@@ -83,6 +83,11 @@ a{
     color: black;
 }
 
+a.download{
+    font-size: 0.7em;
+    color: blue;
+}
+
 a:hover{
     text-decoration: underline;
 }
