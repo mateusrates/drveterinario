@@ -90,6 +90,7 @@ a:hover{
 div#img{
     text-align: center;
 }
+
 h2{
     color:#133919;
     background-image: linear-gradient(to right, var(--cor2), transparent);
@@ -97,6 +98,21 @@ h2{
     font-weight: bold;
     font-variant: small-caps;
     padding: 5px;
-    margin-left: -10px;
-    
+    margin-left: -10px;    
+}
+
+div.video{
+    position: relative;
+    background-color: var(--cor4);
+    margin: 0px -10px 0px -10px;
+    padding: 20px;
+    padding-bottom: 56%
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5% ;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
