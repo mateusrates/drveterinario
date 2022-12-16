@@ -152,3 +152,10 @@ footer > a{
 div.q1{
     background-image: url(pexels-konevi-2845173.jpg);
 }
+
+@media screen and (max-width:500px) {
+   
+    img#logo{
+        display:none;
+    }
+}
