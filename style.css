@@ -119,7 +119,7 @@ div.video > iframe{
     top: 5% ;
     left: 5%;
     width: 90%;
-    height: 90%;
+    height: 90%;    
 }
 
 footer{
@@ -132,4 +132,8 @@ footer{
 
 footer > a{
     color: white;    
+}
+
+div.q1{
+    background-image: url(pexels-konevi-2845173.jpg);
 }
