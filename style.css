@@ -42,16 +42,31 @@ header > div{
     text-align: center;
     margin-top: 20px;
 }
+
+span#menu{
+    display: block;
+    background-color: #133919;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    cursor:pointer;
+}
+
+span#menu:hover{
+    background-color:#06991F;
+}
+
 nav{
     background-color:var(--cor4);
-    
     padding: 5px;
-    
+       
 }
 
 nav > a{
+    display:block ;
     color:  rgb(231, 230, 230);
     text-decoration: none;
+    text-align: center;
     font-family: Ubuntu, sans-serif;
     font-weight: bold;
     margin-right: 15px;
