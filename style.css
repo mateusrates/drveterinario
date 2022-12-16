@@ -130,6 +130,10 @@ h2{
     margin-left: -10px;    
 }
 
+h2 > a:hover{
+    text-decoration: none;
+}
+
 div.video{
     position: relative;
     background-color: var(--cor4);
