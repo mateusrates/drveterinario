@@ -61,7 +61,7 @@ span#menu{
 }
 
 span#menu:hover{
-    background-color:#06991F;
+    background-color: #036412;
 }
 
 nav{
@@ -81,10 +81,11 @@ nav > a{
     margin-right: 15px;
     padding: 5px;
     border-radius: 5px;
+    
 }
 
 nav > a:hover{
-    background-color: var(--cor2);
+    background-color: #036412;
     text-decoration: underline;
 }
 
@@ -177,4 +178,5 @@ div.q1{
         background-image: black
         ;
     }
+
 }
